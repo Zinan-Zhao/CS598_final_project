@@ -29,13 +29,13 @@ Outputs will be stored in `./data_example/encodings` and include ConvAE latent r
 To train the model:
 
 ```bash
-$ python -u ./patient_representations.py ./convae_architecture/data_example/ 
+$ python -u ./patient_representations.py ./data_example/ 
 ```
 
 To test the trained models, we can set `--test-set` to True:
 
 ```bash
-$ python -u ./patient_representations.py ./convae_architecture/data_example/ --test_set True
+$ python -u ./patient_representations.py ./data_example/ --test_set True
 ```
 
 ## Data 
