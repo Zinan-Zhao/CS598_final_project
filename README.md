@@ -68,15 +68,15 @@ Accuracy here doesn't imply much about the model as it is a unsupervised learnin
 
 | Silhouette Score  | RawCount | ConvAE(1-layer) | ConAE(2-layer) |
 | ----------------- | -------- | --------------- | -------------- |
-| k=2 means cluster |          |                 |                |
-| k=5 means cluster |          |                 |                |
+| k=2 means cluster | 0.0782   | 0.6171          | 0.6804         |
+| k=5 means cluster | 0.0879   | 0.0923          | 0.5894         |
 
 Performance on social media data to assess suicide risk: 
 
 |         | RawCount | ConvAE(1-layer) | ConAE(2-layer) |
 | ------- | -------- | --------------- | -------------- |
-| Entropy | 0.0206   | 0.0182          |                |
-| Purity  | 0.5457   | 0.6200          |                |
+| Entropy | 0.0437   | 0.0182          | 0.0384         |
+| Purity  | 0.5457   | 0.6200          | 0.84           |
 
 
 
